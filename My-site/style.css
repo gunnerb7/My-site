@@ -1,0 +1,196 @@
+h1 {
+    font-size: 100px;
+    color: aqua;
+    text-align: center;
+    margin-top: 0px;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 100px;
+    margin-top: 0px;
+    
+}
+
+.side-nav {
+    background-color: crimson;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
+    
+}
+
+.side-nava a {
+    text-decoration: none;
+    padding: 6px 6px 6px 32px;
+    display: block;
+    color: lightsteelblue;
+    font-size: 20px;
+
+}
+
+.side-nava a:hover {
+    color: whitesmoke;
+    background-color: blue;
+    
+
+}
+
+.main, .container {
+    margin-left: 144px;
+    text-align: center;
+  
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body {
+    background-image: url(./images/minecraft_background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+ul {
+    font-size: 50px;
+    color: white;
+    
+
+}
+
+iframe {
+    width: 65%;
+    height: 65%;
+
+}
+.main a {
+    color: whitesmoke;
+
+}
+
+
+.twitter-follow-button {
+    padding-left: 25px;
+    padding-top: 15px;
+    
+
+}
+.home , .creation {
+    border-bottom: 2px solid;
+
+}
+ul a {
+    text-decoration: none;
+    
+    
+}
+ul img {
+    width: 50px;
+    height: 50px;
+
+}
+.twitter:hover {
+    background-color: whitesmoke;
+}
+button {
+    margin-left: 25px;
+    
+}
+footer img {
+    width: 30px;
+    height: 30px;
+    
+}
+footer {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr ;
+    border-top: 2px solid lightsteelblue;
+    margin-top: 100px;
+
+}
+footer a:hover{
+    filter: opacity(75%);
+    
+}
+article {
+    background-color: green;
+    border: 2px black;
+}
+.container {
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10px;
+
+}
+article:last-child {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.skill {
+    background-color: blueviolet;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip:before {
+    content: attr(data-text); /* here's the magic */
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:100%;
+    margin-left:15px;
+    width:200px;
+    padding:10px;
+    border-radius:10px;
+    background:rgb(48, 169, 240);
+    color: #fff;
+    text-align:center;
+  
+    display:none; 
+}
+.tooltip:hover:before {
+    display:block;
+  }
+.tooltip:after {
+    content: "";
+    position:absolute;
+    
+    left:100%;
+    margin-left:-25px;
+   
+    top:50%;
+    transform:translateY(-50%);
+   
+    border:20px solid #000;
+    border-color: transparent rgb(48, 169, 240) transparent transparent;
+    
+    display:none;
+  }
+.tooltip:hover:before, .tooltip:hover:after {
+    display:block;
+  }
+
+#email::before, #email:hover {
+    background-color: rgba(245, 26, 26, 0.938);
+    
+}
+
