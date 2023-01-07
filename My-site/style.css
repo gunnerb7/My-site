@@ -36,7 +36,6 @@ h2 {
 }
 
 .side-nava a:hover {
-    color: whitesmoke;
     background-color: blue;
     
 
@@ -80,8 +79,7 @@ iframe {
 
 
 .twitter-follow-button {
-    padding-left: 25px;
-    padding-top: 15px;
+    padding: 9px 10px 9px 55px;
     
 
 }
@@ -100,22 +98,26 @@ ul img {
 
 }
 .twitter:hover {
-    background-color: whitesmoke;
+    background-color: rgb(0, 0, 0. 0.5);
 }
 button {
     margin-left: 25px;
     
 }
 footer img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    
     
 }
 footer {
     display: grid;
     grid-template-columns: .5fr .5fr .5fr ;
     border-top: 2px solid lightsteelblue;
-    margin-top: 100px;
+    gap: 1px;
+    
+    
 
 }
 footer a:hover{
@@ -132,7 +134,6 @@ article {
     margin-left: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     gap: 10px;
 
 }
@@ -164,7 +165,6 @@ article:last-child {
     background:rgb(48, 169, 240);
     color: #fff;
     text-align:center;
-  
     display:none; 
 }
 .tooltip:hover:before {
@@ -173,16 +173,12 @@ article:last-child {
 .tooltip:after {
     content: "";
     position:absolute;
-    
     left:100%;
     margin-left:-25px;
-   
     top:50%;
     transform:translateY(-50%);
-   
     border:20px solid #000;
     border-color: transparent rgb(48, 169, 240) transparent transparent;
-    
     display:none;
   }
 .tooltip:hover:before, .tooltip:hover:after {
@@ -193,4 +189,6 @@ article:last-child {
     background-color: rgba(245, 26, 26, 0.938);
     
 }
+
+
 
