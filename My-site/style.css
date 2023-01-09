@@ -28,7 +28,7 @@ h2 {
 
 .side-nava a {
     text-decoration: none;
-    padding: 6px 6px 6px 32px;
+    padding: 5px 5px 5px 5px;
     display: block;
     color: lightsteelblue;
     font-size: 20px;
@@ -37,7 +37,12 @@ h2 {
 
 .side-nava a:hover {
     background-color: blue;
-    
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;    
 
 }
 
@@ -79,7 +84,7 @@ iframe {
 
 
 .twitter-follow-button {
-    padding: 9px 10px 9px 30px;
+    padding: 5px 5px 5px 5px;
     
 }
 
@@ -93,32 +98,28 @@ ul a {
         
 }
 
-ul img {
-    width: 50px;
-    height: 50px;
-}
 
 .twitter:hover {
     background-color: rgb(0, 0, 0. 0.5);
 }
 
 button {
-    margin-left: 15px;
+    margin-left: 10px;
+    
 
 }
 
 footer img {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 
 }
 
 footer {
     display: grid;
-    grid-template-columns: .5fr .5fr .5fr ;
+    grid-template-columns: .5fr .5fr .5fr;
     border-top: 2px solid lightsteelblue;
-    margin-left: 10px;
-    gap: 10px;
+    margin-left: 5px;
     
 }
 footer a:hover{
@@ -197,7 +198,11 @@ article:last-child {
 
 .ref img {
     width: 100%;
-    border-top: 2px solid lightsteelblue;    
+    border-top: 2px solid lightsteelblue; 
+    border-bottom: 2px solid lightsteelblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: auto;
 }
 
 
