@@ -79,50 +79,54 @@ iframe {
 
 
 .twitter-follow-button {
-    padding: 9px 10px 9px 55px;
+    padding: 9px 10px 9px 30px;
     
-
 }
+
 .home , .creation {
     border-bottom: 2px solid;
 
 }
+
 ul a {
     text-decoration: none;
-    
-    
+        
 }
+
 ul img {
+    width: 50px;
+    height: 50px;
+}
+
+.twitter:hover {
+    background-color: rgb(0, 0, 0. 0.5);
+}
+
+button {
+    margin-left: 15px;
+
+}
+
+footer img {
     width: 50px;
     height: 50px;
 
 }
-.twitter:hover {
-    background-color: rgb(0, 0, 0. 0.5);
-}
-button {
-    margin-left: 25px;
-    
-}
-footer img {
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-    
-    
-}
+
 footer {
     display: grid;
     grid-template-columns: .5fr .5fr .5fr ;
     border-top: 2px solid lightsteelblue;
-    gap: 1px;
+    margin-left: 10px;
+    gap: 10px;
     
-    
-
 }
 footer a:hover{
     filter: opacity(75%);
-    
+    transition: calc(1s / 3);
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 article {
     background-color: green;
@@ -181,6 +185,7 @@ article:last-child {
     border-color: transparent rgb(48, 169, 240) transparent transparent;
     display:none;
   }
+
 .tooltip:hover:before, .tooltip:hover:after {
     display:block;
   }
@@ -188,6 +193,11 @@ article:last-child {
 #email::before, #email:hover {
     background-color: rgba(245, 26, 26, 0.938);
     
+}
+
+.ref img {
+    width: 100%;
+    border-top: 2px solid lightsteelblue;    
 }
 
 
