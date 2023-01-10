@@ -11,7 +11,8 @@ h2 {
     color: whitesmoke;
     font-size: 100px;
     margin-top: 0px;
-    
+    text-align: center;
+    padding-left: 10%;    
 }
 
 .side-nav {
@@ -28,7 +29,7 @@ h2 {
 
 .side-nava a {
     text-decoration: none;
-    padding: 5px 5px 5px 5px;
+    padding: 4px 4px 4px 4px;
     display: block;
     color: lightsteelblue;
     font-size: 20px;
@@ -67,8 +68,7 @@ body {
 
 ul {
     font-size: 50px;
-    color: white;
-    
+    color: white;    
 
 }
 
@@ -77,11 +77,11 @@ iframe {
     height: 65%;
 
 }
+
 .main a {
     color: whitesmoke;
-
+    
 }
-
 
 .twitter-follow-button {
     padding: 5px 5px 5px 5px;
@@ -106,7 +106,6 @@ ul a {
 button {
     margin-left: 10px;
     
-
 }
 
 footer img {
@@ -120,8 +119,10 @@ footer {
     grid-template-columns: .5fr .5fr .5fr;
     border-top: 2px solid lightsteelblue;
     margin-left: 5px;
+    padding: 5px 10px;
     
 }
+
 footer a:hover{
     filter: opacity(75%);
     transition: calc(1s / 3);
@@ -129,10 +130,12 @@ footer a:hover{
     cursor: pointer;
 
 }
+
 article {
     background-color: green;
     border: 2px black;
 }
+
 .container {
     font-size: 30px;
     line-height: 50px;
