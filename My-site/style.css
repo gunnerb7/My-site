@@ -128,7 +128,7 @@ footer a:hover{
     transition: calc(1s / 3);
     transform: scale(1.1);
     cursor: pointer;
-
+    background-color: whitesmoke;
 }
 
 article {
@@ -206,6 +206,9 @@ article:last-child {
     border-radius: 10px;
     margin-top: 10px;
     margin-right: auto;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    
 }
 
 
