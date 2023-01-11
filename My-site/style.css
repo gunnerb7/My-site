@@ -127,8 +127,7 @@ footer a:hover{
     filter: opacity(75%);
     transition: calc(1s / 3);
     transform: scale(1.1);
-    cursor: pointer;
-    background-color: whitesmoke;
+    cursor: crosshair;
 }
 
 article {
