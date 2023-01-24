@@ -100,6 +100,24 @@ section {
 
 }
 
+
+.changelly {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: #ccc 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 450px;
+
+}
+
+
+/* article */
+
 /* footer */
 
 footer {
