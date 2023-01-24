@@ -111,7 +111,7 @@ section {
     margin-bottom: 20px;
     text-align: center;
     margin-top: 20px;
-    height: 450px;
+    height: 600px;
 
 }
 
@@ -121,14 +121,15 @@ section {
 /* footer */
 
 footer {
-    padding: 20px;
+    padding: 10px;
     background: #333;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     border-top: #bb0000 3px solid;
     bottom: 0;
-    padding: 10px;
+    width: 100%;
+    position: relative;
 
 }
 
