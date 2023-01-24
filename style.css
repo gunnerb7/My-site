@@ -10,27 +10,18 @@ body {
     font-size: 30px;
     margin: 0;
     padding: 0;
+    background: url(bg.png);
 
     
 }
 
 h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 10px; 
     
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    text-align: center;
-    margin-left: 20px;
-    
-}
+
 
 a:hover {
     text-decoration: underline;
@@ -50,12 +41,24 @@ nav {
 
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
 li a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
     margin: 10px;
-    font-size: 20px;
+    font-size: 40px;
       
 
 }
@@ -94,9 +97,11 @@ footer {
     text-align: center;
     margin-top: 20px;
     border-top: #bb0000 3px solid;
-    
+    bottom: 0;
+    padding: 10px;
 
 }
+
 span {
     color: #bb0000;
 }
