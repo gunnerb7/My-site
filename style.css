@@ -116,9 +116,6 @@ section {
 
 }
 
-
-/* article */
-
 /* footer */
 
 footer {
@@ -137,5 +134,38 @@ footer {
 span {
     color: #bb0000;
 }
+
+/* LINKS! */
+a {
+    color: #bb0000;
+    text-decoration: none;
+}
+
+main a img {
+    display: block;
+    margin: auto;
+    grid-gap: 0px;
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: relative;
+
+}
+
+.link a img:hover {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+
 
 /* media queries */
