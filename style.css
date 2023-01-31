@@ -45,7 +45,7 @@ ul {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     text-align: center;
     margin-left: 20px;
@@ -132,6 +132,10 @@ footer {
 }
 
 span {
+    color: #bb0000;
+}
+
+.red {
     color: #bb0000;
 }
 
