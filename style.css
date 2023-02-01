@@ -173,6 +173,12 @@ main a img {
 .green {
     color: #00bb00;
 }
+#link1 .link span {
+    text-decoration: underline;
+    font-size: -3%;
+    padding: 0%;
+    margin: 0%;
+}
 
 .uphold {
     max-width: 1200px;
