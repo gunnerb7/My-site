@@ -258,3 +258,28 @@ main a img {
 
 
 /* media queries */
+@media only screen and (max-width: 600px) {
+    .port {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+
+/* PORT-(FOR_PORTFOLIO) */
+#port {
+    display: row;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    height: 799px;
+    
+}
+iframe {
+    height: 550px;
+    width: 600px;
+}
+
+
