@@ -133,12 +133,12 @@ footer {
 
 }
 
-span {
+.red {
     color: #bb0000;
 }
 
-.red {
-    color: #bb0000;
+.green {
+    color: #00bb00;
 }
 
 /* LINKS! */
@@ -147,7 +147,7 @@ a {
     text-decoration: none;
 }
 
-main a img {
+.link a img {
     display: block;
     margin: auto;
     grid-gap: 0px;
@@ -171,23 +171,15 @@ main a img {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
 }
-
-.green {
-    color: #00bb00;
-}
-#link1 .link span {
-    text-decoration: underline;
-    font-size: 135%;
-    padding: 3%;
-    margin: 1%;
-    font-weight: 55%;
+.link a {
+    padding: 0%;
+    margin: 0px;
+    grid-gap: 0px;
+    text-align: center;
+    
 
 }
-#link1 {
-    height: flex;
-    width: flex;
 
-}
 
 .uphold {
     max-width: 1200px;
