@@ -204,7 +204,7 @@ main a img {
     color: #333;
     text-decoration: underline;
     cursor: pointer;
-    transform: scale(1.4)
+    transform: scale(1.4);
     transition: all 0.3s ease-in-out;
 
     
