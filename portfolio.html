@@ -18,8 +18,55 @@
         </nav>
         <main id="port">
             <h2>Portfolio</h2>
-            <p>Here are some of my projects!</p>
-            <iframe src="https://jesksr-storage.cyou">https//:jesksr-storage.cyou</iframe>
+            <section>
+                <!--------This is the widget-------->
+    <!--------If need be, get rid of this widget lol-------->
+            <script>
+                (function(d, s, id) {
+                    if (d.getElementById(id)) {
+                        if (window.__TOMORROW__) {
+                            window.__TOMORROW__.renderWidget();
+                        }
+                        return;
+                    }
+                    const fjs = d.getElementsByTagName(s)[0];
+                    const js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+        
+                    fjs.parentNode.insertBefore(js, fjs);
+                })(document, 'script', 'tomorrow-sdk');
+              </script>
+        
+                    <div class="tomorrow"
+                    data-location-id="125703"
+                    data-language="EN"
+                    data-unit-system="IMPERIAL"
+                    data-skin="light"
+                    data-widget-type="upcoming"
+                    style="padding-bottom:22px;position:relative;"
+                    >
+                    <a
+                        href="https://www.tomorrow.io/weather-api/"
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                    >
+                        <img
+                        alt="Powered by the Tomorrow.io Weather API"
+                        src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                        width="250"
+                        height="18"
+                        />
+                    </a>
+                    </div>
+        <!--------End of widget-------->
+            </section>
+            <section>
+                <p>Here are some of my projects!</p>
+                <p>My first project was a simple <span class="red">HTML</span> and <span class="green">CSS</span> site for my dad.</p>
+                <iframe src="https://jesksr-storage.cyou">https//:jesksr-storage.cyou</iframe>
+            </section>
             
         </main>
         <footer>

@@ -113,7 +113,7 @@ section {
     margin-bottom: 20px;
     text-align: center;
     margin-top: 20px;
-    height: 600px;
+    height: 100%;
     
 
 }
@@ -139,6 +139,9 @@ footer {
 
 .green {
     color: #00bb00;
+}
+.yellow {
+    color: #ffbb00;
 }
 
 /* LINKS! */
@@ -271,7 +274,7 @@ a {
 }
 iframe {
     height: 550px;
-    width: 600px;
+    width: 100%;
 }
 
 
