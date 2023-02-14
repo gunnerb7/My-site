@@ -50,7 +50,7 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     text-align: center;
-    margin-left: 20px;
+    
     
 }
 
@@ -58,7 +58,6 @@ li a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
-    margin: 10px;
     font-size: 40px;
       
 
@@ -174,14 +173,6 @@ a {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
 }
-.link a {
-    padding: 0%;
-    margin: 0px;
-    grid-gap: 0px;
-    text-align: center;
-    
-
-}
 
 
 .uphold {
@@ -253,12 +244,13 @@ a {
 
 
 /* media queries */
-@media only screen and (max-width: 600px) {
-    .port {
-        grid-template-columns: repeat(1, 1fr);
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    .port, .uphold, .changelly, .coinbase, {
+        grid-template-columns: repeat(3, 3fr);
         grid-gap: 20px;
     }
 }
+
 
 
 /* PORT-(FOR_PORTFOLIO) */
