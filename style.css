@@ -116,7 +116,9 @@ section {
     text-align: center;
     margin-top: 20px;
     height: 100%;
-    
+    background-image: url("https:source.unsplash.com/random/?Cryptocurrency/25x25");
+    color: #fff;
+    background-color:#221f1f8f;
 
 }
 
@@ -272,8 +274,3 @@ iframe {
     width: 100%;
 }
 
-
-.changelly {
-    background-image: url("https:source.unsplash.com/random/?Cryptocurrency/25x25");
-    
-}   
